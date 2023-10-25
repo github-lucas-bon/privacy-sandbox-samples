@@ -53,6 +53,7 @@ adb shell setprop debug.adservices.disable_fledge_enrollment_check true
 adb shell device_config put adservices fledge_custom_audience_service_kill_switch false
 adb shell device_config put adservices fledge_select_ads_kill_switch false
 adb shell device_config put adservices fledge_auction_server_kill_switch false
+adb shell device_config put adservices fledge_fetch_custom_audience_enabled true
 ```
 
 Once the above steps are completed, you must launch with the below command:
